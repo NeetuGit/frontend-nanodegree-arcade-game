@@ -56,7 +56,7 @@
                 /* Once the image is actually loaded and properly cached,
                  * call all of the onReady() callbacks we have defined.
                  */
-                if(isReady()) {
+               if(isReady()) {
                     readyCallbacks.forEach(function(func) { func(); });
                 }
             };
