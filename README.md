@@ -10,7 +10,7 @@ You can play the game here https://neetugit.github.io/frontend-nanodegree-arcade
 
 This Game Uses
 ----------------
-Starter code provided by [Udacity] (https://github.com/udacity/frontend-nanodegree-arcade-game  to assist with HTML and CSS and JavaScript)
+Starter code provided by Udacity(https://github.com/udacity/frontend-nanodegree-arcade-game  to assist with HTML and CSS and JavaScript
 
 Instructions for Students
 -----------------------------
