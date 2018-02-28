@@ -113,7 +113,7 @@ Player.prototype.checkCollisions = function() {
         65 + allEnemies[e].y >this.y) {
         console.log("Collision!");		
 		score=score-1; // score is reducing by 1 every time player collides with bug
-        player.reset();
+        this.reset();
       }
     } 
 };
