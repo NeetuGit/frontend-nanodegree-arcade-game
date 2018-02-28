@@ -72,7 +72,7 @@ Player.prototype.win = function() {
 
 Player.prototype.update = function(x, y) {
 	
-    this.handleInput();	
+  //  this.handleInput();	
     this.checkCollisions();
 
 	if (this.y < -10) {
@@ -107,10 +107,10 @@ Player.prototype.handleInput = function(arrow) {
 Player.prototype.checkCollisions = function() {
   
     for (e = 0; e < 3; e++) {
-      if (allEnemies[e].x < player.x + 101 &&
-        allEnemies[e].x + 101 > player.x &&
-        allEnemies[e].y < player.y + 83 &&
-        83 + allEnemies[e].y > player.y) {
+      if (allEnemies[e].x < this.x + 65 &&
+        allEnemies[e].x + 80 > this.x &&
+        allEnemies[e].y < this.y + 65 &&
+        65 + allEnemies[e].y >this.y) {
         console.log("Collision!");		
 		score=score-1; // score is reducing by 1 every time player collides with bug
         player.reset();
